@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Vehicle Photo Agent: runtime data (other people's photos, the Excel log, backup rows)
+DATA_DIR/
+data/
+photos/
+*.xlsx
+pending_rows.jsonl
